@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Webcam_fun</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+  <body>
+    <div class="controls">
+      <button type="button" name="button" onclick="takePhoto()">Take Photo</button>
+      <!-- <br>
+      <label for="red">Red</label>
+      <input type="range" name="red" id="red" min="0" max="255">
+      <br>
+      <label for="green">Green</label>
+      <input type="range" name="green" id="green" min="0" max="255"> -->
+    </div>
+
+    <canvas class="photo"></canvas>
+    <video class="player"></video>
+    <div class="strip"></div>
+    <script src="./js/main.js" defer></script>
+  </body>
+</html>

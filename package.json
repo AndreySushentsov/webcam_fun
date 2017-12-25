@@ -1,0 +1,12 @@
+{
+  "name": "loftschool-builder",
+  "version": "1.0.0",
+  "author": "a.sushentsov",
+  "license": "ISC",
+  "scripts": {
+    "start":"browser-sync start --server --files '*.css, *.html, *.js'"
+  },
+  "dependencies": {
+    "browser-sync": "~2.18.7"
+  }
+}
